@@ -1,0 +1,36 @@
+/* google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Work+Sans:wght@400;700;800&display=swap");
+/* common shared styles */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: "Work Sans", sans-serif;
+}
+.marginAuto {
+  max-width: 1442px;
+  margin: 0px auto;
+}
+.g {
+  color: #ff42a5;
+}
+.logText {
+  /* text-align: center; */
+  font-size: 45px;
+  font-weight: 700;
+}
+
+/* nav start */
+.container{
+  padding-top: 37px;
+  padding-bottom: 37px;
+}
+.logoBlock {
+  display: flex;
+  justify-content: space-between;
+}
+.logoBlock .logo {
+  width: 86.041px;
+  height: 40px;
+}
