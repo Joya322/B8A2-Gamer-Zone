@@ -83,7 +83,7 @@ nav {
 #banner {
   background-image: url("../images/bannerBG.png");
   background-repeat: no-repeat;
-  height: 700px;
+  
 }
 .banner {
   display: flex;
