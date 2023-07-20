@@ -518,4 +518,39 @@ footer {
   .button p {
     font-size: 10px;
   }
+  #footerContainer {
+    margin-top: 100px;
+  }
+  .footerContainer {
+    padding: 50px 0px;
+  }
+  .logoBlock {
+    margin-bottom: 10px;
+  }
+  .logoBlock .logo {
+    width: 40px;
+    height: 20px;
+  }
+  .logoBlock h3 {
+    font-size: 25px;
+  }
+  .aboutSection {
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+  .socialMedia {
+    flex-wrap: wrap;
+    padding: 0px 70px;
+  }
+  .socialMedia > a {
+    font-size: 20px;
+  }
+  .privacy{
+    flex-wrap: wrap;
+    gap: 70px;
+  }
+  .copyRight{
+    width: 300px;
+    margin: 0px auto;
+  }
 }
