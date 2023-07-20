@@ -15,7 +15,7 @@ body {
 .g {
   color: #ff42a5;
 }
-.logText {
+.logoText {
   font-size: 45px;
   font-weight: 700;
 }
@@ -253,7 +253,7 @@ nav {
   width: 483px;
 }
 /* typeOfGames section start */
-.buttons{
+.buttons {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -271,7 +271,70 @@ nav {
   border: none;
   background: #fff;
 }
-.button:hover{
-  border: 2px solid #F948B2;
+.button:hover {
+  border: 2px solid #f948b2;
   /* border-color: #F948B2; */
+}
+footer {
+  background: #0b0223;
+}
+
+.footerContainer .logoBlock h3 {
+  color: #ffffff;
+}
+.footerContainer {
+  padding: 120px 0px;
+  text-align: center;
+}
+.aboutSection {
+  margin: 56px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+.aboutSection a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+}
+.socialMedia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.socialMedia a {
+  text-decoration: none;
+}
+.socialMedia a > i {
+  font-size: 40px;
+  /* font-size: 50px; */
+}
+.fa-facebook {
+  border-radius: 50%;
+}
+.you {
+  width: 57.13px;
+  height: 40px;
+}
+.privacy {
+  margin-top: 74px;
+  margin-bottom: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+.privacy a {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
+  font-weight: 500;
+}
+.copyRight p {
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
+  font-weight: 500;
 }
