@@ -424,4 +424,23 @@ footer {
   .bannerImg img {
     width: 70%;
   }
+  /* onlineGames start */
+  .contentTitle{
+    font-size: 25px;
+  }
+  .contentDesc{
+    font-size: 12px;
+  }
+  .onlineGameImgs{
+    flex-direction: column;
+    align-items: center;
+  }
+  .onlineImg{
+    
+  }
+  .onlineImgTxt{
+    font-size: 12px;
+    text-align: center;
+  }
+
 }
