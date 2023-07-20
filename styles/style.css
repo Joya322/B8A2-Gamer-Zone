@@ -263,7 +263,7 @@ nav {
   padding: 0px 60px;
 }
 .button {
-  padding: 10px 20px 10px 10px;
+  padding: 5px 10px 5px 5px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -275,6 +275,15 @@ nav {
 .button:hover {
   border: 2px solid #f948b2;
   /* border-color: #F948B2; */
+}
+.button p {
+  color: #0b0223;
+  font-size: 20px;
+  font-weight: 600;
+}
+.button img {
+  width: 60px;
+  height: 60px;
 }
 footer {
   background: #0b0223;
@@ -483,8 +492,30 @@ footer {
   .playGamesContainer .floatImg {
     left: 140px;
   }
-  .playGamesContainer{
+  .playGamesContainer {
     margin-top: 100px;
     margin-bottom: 100px;
+  }
+  .typeOfGamesContainer {
+    margin-top: 0px;
+  }
+
+  /* types start */
+  .buttons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    /* display: flex; */
+    /* justify-content: start; */
+  }
+  .button {
+    gap: 5px;
+  }
+  .button img {
+    width: 30px;
+    height: 30px;
+  }
+  .button p {
+    font-size: 10px;
   }
 }
