@@ -247,9 +247,9 @@ nav {
   left: 461px;
 }
 
-.playGamesContainer .flotingPartContent {
+/* .playGamesContainer .flotingPartContent {
   width: 426px;
-}
+} */
 .playGamesContainer .flotingPartContent p {
   width: 483px;
 }
@@ -425,22 +425,66 @@ footer {
     width: 70%;
   }
   /* onlineGames start */
-  .contentTitle{
+  .contentTitle {
     font-size: 25px;
   }
-  .contentDesc{
+  .contentDesc {
     font-size: 12px;
+    margin-bottom: 40px;
   }
-  .onlineGameImgs{
+  .onlineGameImgs {
     flex-direction: column;
     align-items: center;
   }
-  .onlineImg{
-    
+  .onlineImg {
   }
-  .onlineImgTxt{
+  .onlineImgTxt {
     font-size: 12px;
     text-align: center;
   }
 
+  /* playInstantly start */
+  .playInstantlyContainer {
+    margin-top: 50px;
+  }
+  .flotingPart {
+    flex-direction: column;
+    gap: 0px;
+  }
+  .flotingPartContent {
+    width: 320px;
+    text-align: center;
+  }
+  /* .flotingPartContent h3{
+    width: 290px;
+  } */
+  .bigImg {
+    width: 200px;
+    height: 220px;
+  }
+  .smallImg {
+    width: 100px;
+    height: 120px;
+  }
+  .floatImg {
+    top: 150px;
+    right: 140px;
+    position: absolute;
+  }
+  /* playGamesContainer start */
+  .playGamesContainer .flotingPartContent {
+    width: 320px;
+    text-align: center;
+  }
+
+  .playGamesContainer .flotingPartContent p {
+    width: 320px;
+  }
+  .playGamesContainer .floatImg {
+    left: 140px;
+  }
+  .playGamesContainer{
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
 }
