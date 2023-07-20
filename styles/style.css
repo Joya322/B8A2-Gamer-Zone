@@ -235,6 +235,7 @@ nav {
 /* playGames section start */
 .playGamesContainer {
   margin-top: 196px;
+  margin-bottom: 243px;
   flex-direction: row-reverse;
 }
 
@@ -250,4 +251,27 @@ nav {
 }
 .playGamesContainer .flotingPartContent p {
   width: 483px;
+}
+/* typeOfGames section start */
+.buttons{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 27px;
+  padding: 0px 60px;
+}
+.button {
+  padding: 10px 20px 10px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  border-radius: 50px;
+  border: none;
+  background: #fff;
+}
+.button:hover{
+  border: 2px solid #F948B2;
+  /* border-color: #F948B2; */
 }
