@@ -188,6 +188,7 @@ nav {
 
 .content:hover {
   opacity: 1;
+  border: 2px solid #ff42a5;
 }
 .onlineGameBgImg p {
   color: #ff42a5;
@@ -337,4 +338,40 @@ footer {
   color: rgba(255, 255, 255, 0.6);
   font-size: 16px;
   font-weight: 500;
+}
+
+/* responsivenes */
+@media screen and (max-width: 576px) {
+  /* .marginAutoForMobile{
+    max-width: 300px;
+    margin: 0px auto;
+  } */
+
+  .container {
+    padding-top: 103px;
+    /* padding-top: 37px;
+  padding-bottom: 37px; */
+    /* display: flex; */
+    flex-direction: column;
+    /* justify-content: space-between; */
+    /* align-items: center; */
+  }
+
+  .menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .logoBlock {
+    margin-bottom: 62px;
+  }
+  .menu a {
+    margin-bottom: 36px;
+    margin-left: 0px;
+  }
+  .menuBtn {
+    margin-top: 62px;
+    padding: 17px 16px;
+  }
 }
