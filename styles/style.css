@@ -203,17 +203,17 @@ nav {
 }
 
 /* play instantly start */
-.playInstantlyContainer {
+.flotingPart {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 256px;
 }
-.playInstantlyContent {
+.flotingPartContent {
   width: 353px;
   text-align: right;
 }
-.playinstantlyImges{
+.flotingPartImges {
   position: relative;
 }
 .bigImg {
@@ -226,8 +226,28 @@ nav {
   width: 318.5px;
   height: 365.083px;
 }
-.floatImg{
+.floatImg {
   top: 360px;
   right: 461px;
   position: absolute;
+}
+
+/* playGames section start */
+.playGamesContainer {
+  margin-top: 196px;
+  flex-direction: row-reverse;
+}
+
+.playGamesContainer .flotingPartContent {
+  text-align: left;
+}
+.playGamesContainer .floatImg {
+  left: 461px;
+}
+
+.playGamesContainer .flotingPartContent {
+  width: 426px;
+}
+.playGamesContainer .flotingPartContent p {
+  width: 483px;
 }
