@@ -16,7 +16,6 @@ body {
   color: #ff42a5;
 }
 .logText {
-  /* text-align: center; */
   font-size: 45px;
   font-weight: 700;
 }
@@ -42,6 +41,17 @@ body {
   margin-top: 120px;
 }
 
+.contentTitle {
+  color: #0b0223;
+  font-size: 48px;
+  font-weight: 700;
+}
+.contentDesc {
+  color: #534c64;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 15px 0px 48px;
+}
 /* nav start */
 nav {
   background: #fff;
@@ -64,12 +74,6 @@ nav {
   width: 86.041px;
   height: 40px;
 }
-.menu {
-  /* display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 32px; */
-}
 .menu a {
   text-decoration: none;
   color: #3c354f;
@@ -80,7 +84,6 @@ nav {
 }
 .menuBtn {
   width: 262px;
-  /* height: 56px; */
   border-radius: 8px;
   background: rgba(11, 2, 35, 0.1);
   padding: 17px 24px;
@@ -148,21 +151,9 @@ nav {
 .onlineGameContainer {
   text-align: center;
 }
-.onlineGameTitle {
-  color: #0b0223;
-  font-size: 48px;
-  font-weight: 700;
-}
-.onlineGameDesc {
-  color: #534c64;
-  font-size: 18px;
-  font-weight: 400;
-  margin: 15px 0px 48px;
-}
 .onlineGameImgs {
   display: flex;
   justify-content: center;
-  /* align-items: center; */
   gap: 24px;
 }
 .gameDiv {
@@ -207,6 +198,36 @@ nav {
   width: 342px;
   height: 400px;
 }
-.onlineImgTxt{
+.onlineImgTxt {
   text-align: left;
+}
+
+/* play instantly start */
+.playInstantlyContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 256px;
+}
+.playInstantlyContent {
+  width: 353px;
+  text-align: right;
+}
+.playinstantlyImges{
+  position: relative;
+}
+.bigImg {
+  width: 634.833px;
+  height: 650px;
+  border-radius: 8px;
+}
+.smallImg {
+  border-radius: 8px;
+  width: 318.5px;
+  height: 365.083px;
+}
+.floatImg{
+  top: 360px;
+  right: 461px;
+  position: absolute;
 }
